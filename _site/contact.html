@@ -30,8 +30,7 @@
 <!-- Links to CSS Stylesheets  -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 
     <!-- Font Awesome for Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -41,12 +40,6 @@
 
     <!-- Pure Drawer for hamburger menu -->
     <link rel="stylesheet" href="/css/pure-drawer.css">
-
-    <!-- OWL Carousel  -->
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- visit http://realfavicongenerator.net to generate favicons for your site and then place them in the /images/favicons folder -->
 
 
     <!-- CUSTOM STYLESHEETS - This should always be the last stylesheet in your head -->
@@ -81,22 +74,24 @@
   <!-- This contains the hamburger menu when it's popped out-->
   <div class="pure-drawer" data-position="right">
 
-    <h2> LOGO </h2>
+    <h2 class=".logo"></h2>
 
 <nav class="mob-nav">
   <a href="/index"> Home </a>
   <a href="/about"> About </a>
-  <a href="/blog"> Blog </a>
-  <a href="/shop"> Shop </a>
+  <a href="/gallery"> Gallery </a>
+  <a href="/pricing"> Investment </a>
+  <a href="/faq"> FAQ </a>
+  <a href="/contact"> Contact</a>
 </nav>
 
-<hr> <!-- this is a horizontal rule, aka line -->
+<hr>
 
 <nav class="social-nav">
-  <!-- add your social links here -->
-  <a href="#"> <i class="fa fa-facebook"></i> </a>
+
+
   <a href="#"> <i class="fa fa-instagram"></i> </a>
-  <a href="#"> <i class="fa fa-twitter"></i> </a>
+
 </nav>
 
 
@@ -105,78 +100,46 @@
   <div class="pure-pusher-container">
       <div class="pure-pusher"> <!-- this contains all of the body of the site -->
 
-        <header class="centered">
-  <div>
-    <a href="/index.html"><img class="logo" src="/images/demo-logo.png" alt="Erin Wright Photography"></a>
-  </div>
-  <div class="centered mob-hide">
-    <nav>
-      <a href="/main"> Home </a>
-      <a href="/about"> About </a>
-      <a href="/gallery"> Gallery </a>
-      <a href="/pricing"> Pricing </a>
-      <a href="/contact"> Contact</a>
-    </nav>
-  </div>
-</header>
+        
 
-
-        <section class="centered">
-<h3> Contact Me </h3>
-      <p> Fill out the form below with the package that you are interested in and the date. </p>
-
-      <form class="grid-center spacebetween" action="https://formspree.io/treganowanl@gmail.com"
-          method="POST">
-          <div class="col-4_sm-12">
-
-            <input type="text" name="name" placeholder="Your Name">
-          </div>
-          <div class="col-4_sm-12">
-
-            <input type="email" name="_replyto" placeholder="Your Email">
-        </div>
-        <div class="col-8">
-          <textarea placeholder="Message"></textarea>
-        </div>
-        <div class="col-12">
-          <input type="submit" value="Submit" class="button">
-        </div>
-      </form>
-
-<a target="blank" href="http://www.facebook.com/pages/Linea-Body/134430216603633?ref=sgm"> <i class="fa fa-facebook"></i></a>
-</section>
-
-
-        <footer class="grid">
-
-  <!-- Column 1 -->
-  <div class="col-6_sm-12">
-    <a href="/index.html"><img class="logo" src="/images/demo-logo.png" alt="Erin Wright Photography"></a>
-    <p> This is a short description of my brand, which is really fucking awesome. You should probably recommend it to someone </p>
+        <div class="centered site-img">
+  <header class="centered" id="headerstyle">
+    <div class="centered mob-hide">
+      <nav>
+        <a href="/index"> Home </a>
+        <a href="/about"> About </a>
+        <a href="/gallery"> Gallery </a>
+        <a href="/pricing"> Investment </a>
+        <a href="/faq"> FAQ </a>
+        <a href="/contact"> Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="logo">
+    <img src="/images/logo.png" />
   </div>
 
-  <!-- Column 2 -->
-  <div class="col-3_sm-6_xs-12">
-    <nav>
-      <a href="/index"> Home </a>
-      <a href="/about"> About </a>
-      <a href="/gallery"> Gallery </a>
-      <a href="/pricing"> Pricing </a>
-      <a href="/contact"> Contact</a>
-    </nav>
-  </div>
+<section>
 
-  <!-- Column 3 -->
-  <div class="col-3_sm-6_xs-12">
-    <nav class="social-nav">
-      <!-- add your social links here -->
-      <a href="#"> <i class="fa fa-facebook"></i>Facebook </a>
-      <a href="#"> <i class="fa fa-instagram"> </i>Instagram</a>
-      <a href="#"> <i class="fa fa-laptop"></i>Email</a>
-    </nav>
-  </div>
+<div class="centered" id="content">
+<h3>Mandy Rodoni</h3>
+<p>San Francisco Bay Area</p>
+<p>
+  Wardrobe + Photography Styling
+</p>
+<p>hello@mandyrodoni.com</p>
+<p>
+  Phone # goes here
+</p>
+<p>
+  Phone # goes here
+</p>
+<div class="centered">
+  <a href="#"><i class="fa fa-instagram"></i></a>
+</div>
+</div>
 
-</footer>
+
 
 
       </div> <!-- end pure-pusher -->
@@ -194,9 +157,7 @@
 <!-- Snipcart  -->
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ZDBjZjI3YTktMjVjOS00ZTdjLTlhYmUtOTVmYjI0MzE5NjIzNjM2MTY3ODM2MjkyODIzNDYx"></script>
 
-<!-- Owl Carousel -->
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="jquery.min.js"></script>
+
 
 <!-- This is your file with custom javascript or jquery -->
 <script src="/js/main.js"></script>

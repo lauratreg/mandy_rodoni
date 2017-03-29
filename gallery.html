@@ -1,6 +1,72 @@
 ---
 layout: default
-title: Gallery
+title: Work
+images:
+- image_path: /images/demo.jpg
+  title: Photo1
+- image_path: /images/demo.jpg
+  title: Photo2
+- image_path: /images/demo.jpg
+  title: Photo3
+- image_path: /images/demo.jpg
+  title: Photo4
+- image_path: /images/demo.jpg
+  title: Photo1
+- image_path: /images/demo.jpg
+  title: Photo2
+- image_path: /images/demo.jpg
+  title: Photo3
+- image_path: /images/demo.jpg
+  title: Photo4
+- image_path: /images/demo.jpg
+  title: Photo1
+- image_path: /images/demo.jpg
+  title: Photo2
+- image_path: /images/demo.jpg
+  title: Photo3
+- image_path: /images/demo.jpg
+  title: Photo4
 ---
+<div class="site-img">
 
-<!-- Image Gallery -->
+  <header class="centered" id="headerstyle">
+    <div class="centered mob-hide">
+      <nav>
+        <a href="/index"> Home </a>
+        <a href="/about"> About </a>
+        <a href="/gallery"> Gallery </a>
+        <a href="/pricing"> Investment </a>
+        <a href="/faq"> FAQ </a>
+        <a href="/contact"> Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="logo">
+    <img src="/images/logo.png" />
+  </div>
+
+<!-- THIS IS THE GALLERY  -->
+<section>
+
+
+<div id="content">
+  <div>
+    <h2 class="centered">Gallery</h2>
+  </div>
+  <div class="grid-center">
+
+  {% for image in page.images %}
+    <div class="col-4_sm-6_xs-12"><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
+  {% endfor %}
+</div>
+</div>
+
+
+<footer>
+<div class="centered">
+  <a href="#"><i class="fa fa-instagram"></i></a>
+</div>
+</footer>
+
+</section>
+</div>

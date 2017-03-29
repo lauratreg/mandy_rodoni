@@ -1,6 +1,5 @@
-# IOC Jekyll Starter theme
+#MandyRododi
 
-For detailed instructions and videos, please see the IOC Student Hub. This readme will just contain a few important notes.
 
 The starter theme uses:
 - jekyll
@@ -20,4 +19,4 @@ Because the starter theme uses plugins, the process for running jekyll in termin
 
 As this is a new theme that hasn't been tested extensively, please let us know if you find any bugs, or any of the code confusing.
 
-You may notice a few different files including a GEMFILE and GEMFILE.lock, these are both related to the two jekyll plugins used. 
+You may notice a few different files including a GEMFILE and GEMFILE.lock, these are both related to the two jekyll plugins used.
